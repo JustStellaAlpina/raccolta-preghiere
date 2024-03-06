@@ -1,0 +1,34 @@
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: large;
+  background-image: url('img/Background.jpeg');
+}
+
+.center {
+  margin: auto;
+  width: 40%;
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+#divIndex{
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .center{
+    width: 60%;
+  }
+}
+
+@media (max-width: 700px) {
+  .center{
+    width: 85%;
+  }
+}
+
+@media (max-width: 500px) {
+  .center{
+    width: 90%;
+  }
+}
