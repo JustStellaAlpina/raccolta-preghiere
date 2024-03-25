@@ -17,6 +17,10 @@ img{
   padding: 10px;
 }
 
+.onlyCenteredText{
+  text-align: center;
+}
+
 #divIndex{
   text-align: center;
 }
