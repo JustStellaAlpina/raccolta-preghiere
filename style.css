@@ -1,13 +1,19 @@
 body {
   font-family: Tahoma, sans-serif;
   font-size: large;
-  background-image: url('img/backgroundR.jpg');
+  background-image: url('img/backgroundC.jpg') ;
+  background-size:100%;
 }
 
 img{
   border-radius: 8px;
   max-width: 100%;
   height: auto;
+}
+
+.bg-image{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 
 .center {
