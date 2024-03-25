@@ -5,12 +5,14 @@ body {
   background-size:100%;
 }
 
+/*images*/
 img{
   border-radius: 8px;
   max-width: 100%;
   height: auto;
 }
 
+/*table*/
 table{
   width: 100%;
   border-collapse: collapse;
@@ -19,13 +21,10 @@ table{
 tr.spaceUnder>td {
   padding-bottom: 2em;
 }
-.dx{
-  text-align: right;
-}
 
-.sx{
-  text-align: left;
-}
+table td:nth-child(2) { text-align: end; }
+
+/*classes for alignment*/
 
 .center {
   margin: auto;
@@ -38,9 +37,7 @@ tr.spaceUnder>td {
   text-align: center;
 }
 
-#divIndex{
-  text-align: center;
-}
+/*screen (adattamento)*/
 
 @media (max-width: 1200px) {
   .center{
