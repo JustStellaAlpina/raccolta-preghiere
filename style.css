@@ -4,6 +4,12 @@ body {
   background-image: url('img/backgroundR.jpg');
 }
 
+img{
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
 .center {
   margin: auto;
   width: 40%;
