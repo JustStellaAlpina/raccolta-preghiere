@@ -11,9 +11,20 @@ img{
   height: auto;
 }
 
-.bg-image{
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr.spaceUnder>td {
+  padding-bottom: 2em;
+}
+.dx{
+  text-align: right;
+}
+
+.sx{
+  text-align: left;
 }
 
 .center {
