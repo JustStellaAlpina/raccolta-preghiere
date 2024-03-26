@@ -11,7 +11,9 @@
     <div class="center onlyCenteredText">
       <h1>La Preghiera</h1>
 
-      <br />
+      <div id="santo">
+        <script src="https://widgets.chiesacattolica.it/widget-almanacco-v2/widget.php?mods=401537&font=0"></script>
+      </div>
 
       <div>
         <h2>Giornaliera</h2>
@@ -60,23 +62,21 @@
         </p>
       </div>
       <br />
-      <div id="santo">
-        <script src="https://widgets.chiesacattolica.it/widget-almanacco-v2/widget.php?mods=401537&font=0"></script>
+      
+      <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+          var divs = document.getElementsByTagName("div"),
+            forEach = Array.prototype.forEach,
+            regex = /^(head6602|nav6602).*$/;
 
-        <script>
-          document.addEventListener("DOMContentLoaded", function (event) {
-            var divs = document.getElementsByTagName("div"),
-              forEach = Array.prototype.forEach,
-              regex = /^(head6602|nav6602).*$/;
-
-            forEach.call(divs, function (d) {
-              if (d.id !== undefined && regex.test(d.id)) {
-                d.parentNode.removeChild(d);
-              }
-            });
+          forEach.call(divs, function (d) {
+            if (d.id !== undefined && regex.test(d.id)) {
+              d.parentNode.removeChild(d);
+            }
           });
-        </script>
-      </div>
+        });
+      </script>
+      
     </div>
   </body>
 </html>
