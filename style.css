@@ -37,6 +37,17 @@ table td:nth-child(2) { text-align: end; }
   text-align: center;
 }
 
+#santo{
+  max-width: 100%;
+}
+
+#santo img{
+  display: none;
+}
+
+div[id^="widget"] div:first-of-type{display: none;}
+
+
 /*screen (adattamento)*/
 
 @media (max-width: 1200px) {
