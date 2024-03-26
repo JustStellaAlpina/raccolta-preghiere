@@ -18,7 +18,7 @@ table{
   border-collapse: collapse;
 }
 
-tr.spaceUnder>td {
+tr.spazioTr>td {
   padding-bottom: 2em;
 }
 
