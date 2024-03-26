@@ -67,7 +67,7 @@
         document.addEventListener("DOMContentLoaded", function (event) {
           var divs = document.getElementsByTagName("div"),
             forEach = Array.prototype.forEach,
-            regex = /^(head6602|nav6602).*$/;
+            regex = /^(head|nav).*$/;
 
           forEach.call(divs, function (d) {
             if (d.id !== undefined && regex.test(d.id)) {
