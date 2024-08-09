@@ -1,82 +1,73 @@
 <!DOCTYPE html>
-<html lang="it">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>La Preghiera</title>
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Preghiere</h1>
 
-  <body>
-    <div class="center onlyCenteredText">
-      <h1>La Preghiera</h1>
-
-      <div id="santo">
-        <script src="https://widgets.chiesacattolica.it/widget-almanacco-v2/widget.php?mods=401537&font=0"></script>
-      </div>
-
-      <div>
-        <h2>Giornaliera</h2>
-        <p>
-          <a href="preghiere/giornaliere/preghiere-del-mattino.html"
-            >Preghiere del mattino</a
-          >
+    <div>
+        <hr>
+        <p class="elenco">
+            <a href="p/1.html">Preghiera del mattino</a>
         </p>
-
-        <p>
-          <a href="preghiere/giornaliere/preghiere-della-sera.html"
-            >Preghiere della sera</a
-          >
-        </p>
-      </div>
-
-      <br />
-
-      <div>
-        <h2>Ai Santi</h2>
-        <p>
-          <a href="preghiere/santemidio/preghiera.html"
-            >Preghiera a Sant'Emidio</a
-          >
-        </p>
-
-        <p>
-          <a href="preghiere/santemidio/triduo.html"
-            >Triduo in onodre di Sant'Emidio</a
-          >
-        </p>
-
-        <p>
-          <a href="preghiere/sanmichelearcangelo/preghiera.html"
-            >Preghiera a San Michele Arcanglo</a
-          >
-        </p>
-      </div>
-
-      <br />
-
-      <div>
-        <h2>Alla SS. Vergine</h2>
-        <p>
-          <a href="preghiere/ssvergine/rosario.html">Santo Rosario</a>
-        </p>
-      </div>
-      <br />
-      
-      <script>
-        document.addEventListener("DOMContentLoaded", function (event) {
-          var divs = document.getElementsByTagName("div"),
-            forEach = Array.prototype.forEach,
-            regex = /^(head|nav).*$/;
-
-          forEach.call(divs, function (d) {
-            if (d.id !== undefined && regex.test(d.id)) {
-              d.parentNode.removeChild(d);
-            }
-          });
-        });
-      </script>
-      
     </div>
-  </body>
+
+    <div>
+        <hr>
+        <p class="elenco">
+            <a href="p/2.html">Preghiera della sera</a>
+        </p>
+    </div>
+
+    <div>
+        <hr>
+        <p class="elenco">
+            <a href="p/3.html">Preghiera a Sant'Emidio</a>
+        </p>
+    </div>
+
+    <div>
+        <hr>
+        <p class="elenco">
+            <a href="p/3.html">Triduo a Sant'Emidio</a>
+        </p>
+    </div>
+
+    <div>
+        <hr>
+        <p class="elenco">
+            <a href="p/4.html">Preghiera a San Michele Arcangelo</a>
+        </p>
+    </div>
+
+    <div>
+        <hr>
+        <p class="elenco">
+            <a href="p/5.html">Preghiera allo Spirito Santo</a>
+        </p>
+    </div>
+
+    <div>
+        <hr>
+        <p class="elenco">
+            ...
+        </p>
+    </div>
+
+    <div>
+        <hr>
+        <p class="elenco">
+            <a href="https://www.chiesacattolica.it/santo-del-giorno/">Santo del giorno</a>
+        </p>
+    </div>
+    
+    
+
+
+
+</body>
 </html>
