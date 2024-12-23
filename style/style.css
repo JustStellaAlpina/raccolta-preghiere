@@ -1,5 +1,6 @@
 body{
     background-color:antiquewhite;
+    font-family: "Times New Roman", Times, serif;
     /*text-align: center;*/
     text-align: justify;
     text-justify: inter-word;
@@ -12,11 +13,6 @@ a {
     text-decoration: none;
     color: black;
 }
-/*
-p{
-    text-align: justify;
-    text-justify: inter-word;
-}*/
 
 .elenco{
     padding-top: 0.3rem;
